@@ -1,0 +1,9 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+addons.mozilla.org	FALSE	/	TRUE	0	taarId	4b72dfae070a26f95dfd3dc7919c645e84d4a96f4720b29583e4f84678c69550
+.mozilla.org	TRUE	/	FALSE	1806601106	_ga_B9CY1C9VBC	GS2.1.s1772041103$o1$g0$t1772041106$j57$l0$h0
+.mozilla.org	TRUE	/	FALSE	1806601103	_ga	GA1.2.504475822.1772041103
+.mozilla.org	TRUE	/	FALSE	1772127503	_gid	GA1.2.718266180.1772041103
+.mozilla.org	TRUE	/	FALSE	1772041163	_gat	1

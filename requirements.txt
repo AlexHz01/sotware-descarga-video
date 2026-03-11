@@ -1,0 +1,7 @@
+customtkinter
+yt-dlp
+moviepy
+pyinstaller
+python-dotenv
+python3-tk
+playwright
