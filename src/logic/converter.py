@@ -25,7 +25,12 @@ class ConverterLogic:
                 clip.close()
             else:
                 clip = VideoFileClip(file_path)
-                codec = 'libx264' if target_format == "MP4" else 'png'
+                if target_format.upper() == "MP4":
+                    codec = 'libx264'
+                elif target_format.upper() == "AVI":
+                    codec = 'mpeg4'
+                else:
+                    codec = 'libx264'
                 clip.write_videofile(output_path, codec=codec)
                 clip.close()
             
