@@ -12,7 +12,6 @@ venv/
 # Build
 dist/
 build/
-*.spec
 
 # Datos de la aplicación
 data/
